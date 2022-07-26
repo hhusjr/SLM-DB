@@ -191,7 +191,6 @@ target_link_libraries(leveldb
         PRIVATE
         ${Pthread_LIBRARY}
         ${PMEM_LIBRARY}
-        ${PMEMCTO_LIBRARY}
         ${PMEMOBJ_LIBRARY}
         ${PMEMLOG_LIBRARY}
         ${VMEM_LIBRARY}
